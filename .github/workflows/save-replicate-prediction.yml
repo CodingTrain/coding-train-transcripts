@@ -18,7 +18,7 @@ jobs:
         run: |
           echo "Payload: $PAYLOAD"
           echo "ID: $ID"
-          echo "$PAYLOAD" > "${ID}.json"
+          echo "$PAYLOAD" > "predictions/${ID}.json"
 
       - name: Commit and push changes
         run: |
