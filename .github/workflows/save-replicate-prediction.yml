@@ -1,0 +1,27 @@
+name: Save Replicate Prediction
+
+on:
+  repository_dispatch:
+
+jobs:
+  save-payload:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Save payload to file
+        run: |
+          echo "$PAYLOAD" > "${ID}.json"
+        env:
+          PAYLOAD: ${{ toJson(github.event.client_payload) }}
+          ID: ${{ github.event.client_payload.id }}
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add "${ID}.json"
+          git commit -m "Save dispatch payload ${ID}"
+          git push
