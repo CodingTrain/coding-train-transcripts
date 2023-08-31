@@ -6,18 +6,18 @@ const replicate = new Replicate({
   auth: process.env.REPLICATE_API_TOKEN,
 });
 
-const audioFileUrl =
-  "https://upcdn.io/FW25b4F/raw/coding-train/DbcLg8nRWEg.m4a";
-
 async function main() {
-  const prediction = await replicate.predictions.create({
-    // // https://replicate.com/daanelson/whisperx/versions (supposedly better but OOMing)
-    // version: "9aa6ecadd30610b81119fc1b6807302fd18ca6cbb39b3216f430dcf23618cedd",
+  const ghRepo = `zeke/coding-train-transcripts`;
+  const webhook = `https://fe74d3ab4511.ngrok.app/dispatch?gh_repo=${ghRepo}`;
+  const webhook_events_filter = ["completed"];
+  const version =
+    "5c7d5dc6dd8bf75c1acaa8565735e7986bc5b66206b55cca93cb72c9bf15ccaa"; // https://replicate.com/replicate/hello-world/versions
 
-    // https://replicate.com/openai/whisper/versions
-    version: "91ee9c0c3df30478510ff8c8a3a545add1ad0259ad3a9f78fba57fbc05ee64f7",
-    input: { audio: audioFileUrl },
-    webhook: "https://fe74d3ab4511.ngrok.app/dispatch",
+  const prediction = await replicate.predictions.create({
+    version,
+    input: { text: "Alice" },
+    webhook,
+    webhook_events_filter,
   });
   console.log({ prediction });
   console.log(`https://replicate.com/p/${prediction.id}`);
