@@ -4,7 +4,7 @@ on:
   repository_dispatch:
 
 jobs:
-  save-payload:
+  save-replicate-prediction:
     runs-on: ubuntu-latest
     env:
       PAYLOAD: ${{ toJson(github.event.client_payload) }}
@@ -25,5 +25,5 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add .
-          git commit -am "Save dispatch payload ${ID}"
+          git commit -am "Save prediction ${ID}"
           git push
