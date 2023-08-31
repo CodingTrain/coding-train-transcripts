@@ -14,6 +14,7 @@ jobs:
       - name: Save payload to file
         run: |
           echo "Payload: $PAYLOAD"
+          echo "ID: $ID"
           echo "$PAYLOAD" > "${ID}.json"
         env:
           PAYLOAD: ${{ toJson(github.event.client_payload) }}
