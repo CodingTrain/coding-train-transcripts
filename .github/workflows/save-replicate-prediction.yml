@@ -6,6 +6,9 @@ on:
 jobs:
   save-payload:
     runs-on: ubuntu-latest
+    env:
+      PAYLOAD: ${{ toJson(github.event.client_payload) }}
+      ID: ${{ github.event.client_payload.id }}
 
     steps:
       - name: Checkout repository
@@ -16,14 +19,11 @@ jobs:
           echo "Payload: $PAYLOAD"
           echo "ID: $ID"
           echo "$PAYLOAD" > "${ID}.json"
-        env:
-          PAYLOAD: ${{ toJson(github.event.client_payload) }}
-          ID: ${{ github.event.client_payload.id }}
 
       - name: Commit and push changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add "${ID}.json"
-          git commit -m "Save dispatch payload ${ID}"
+          git add .
+          git commit -am "Save dispatch payload ${ID}"
           git push
