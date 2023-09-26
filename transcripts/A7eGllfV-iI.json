@@ -1,0 +1,20 @@
+{
+  "id": "wuecjarbcbk72aa7qstuy7ey5m",
+  "version": "91ee9c0c3df30478510ff8c8a3a545add1ad0259ad3a9f78fba57fbc05ee64f7",
+  "input": {
+    "audio": "https://upcdn.io/FW25b4F/raw/coding-train/A7eGllfV-iI.m4a"
+  },
+  "logs": "",
+  "error": "Prediction interrupted; please retry (code: PA)",
+  "status": "failed",
+  "created_at": "2023-09-26T21:03:45.390049324Z",
+  "completed_at": "2023-09-26T21:53:43.385047309Z",
+  "webhook": "https://83ceaa0b612c.ngrok.app/?video_id=A7eGllfV-iI",
+  "webhook_events_filter": [
+    "completed"
+  ],
+  "urls": {
+    "cancel": "https://api.replicate.com/v1/predictions/wuecjarbcbk72aa7qstuy7ey5m/cancel",
+    "get": "https://api.replicate.com/v1/predictions/wuecjarbcbk72aa7qstuy7ey5m"
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "id": "udazcerbe3cpnqmg5s3wysnquu",
+  "version": "91ee9c0c3df30478510ff8c8a3a545add1ad0259ad3a9f78fba57fbc05ee64f7",
+  "input": {
+    "audio": "https://upcdn.io/FW25b4F/raw/coding-train/LHn7HfhKq98.m4a"
+  },
+  "logs": "Transcribe with large-v2 model\nDetected language: English\n  0%|          | 0/4497 [00:00<?, ?frames/s]\n 62%|██████▏   | 2796/4497 [00:07<00:04, 361.59frames/s]\n100%|██████████| 4497/4497 [00:11<00:00, 406.18frames/s]\n100%|██████████| 4497/4497 [00:11<00:00, 397.03frames/s]\n",
+  "output": {
+    "detected_language": "english",
+    "segments": [
+      {
+        "avg_logprob": -0.32080311245388454,
+        "compression_ratio": 1.608695652173913,
+        "end": 6.8,
+        "id": 0,
+        "no_speech_prob": 0.005138442851603031,
+        "seek": 0,
+        "start": 0,
+        "temperature": 0,
+        "text": " Warning, warning, warning, system critical.",
+        "tokens": [
+          50364,
+          45140,
+          11,
+          9164,
+          11,
+          9164,
+          11,
+          1185,
+          4924,
+          13,
+          50704
+        ]
+      },
+      {
+        "avg_logprob": -0.32080311245388454,
+        "compression_ratio": 1.608695652173913,
+        "end": 9.44,
+        "id": 1,
+        "no_speech_prob": 0.005138442851603031,
+        "seek": 0,
+        "start": 6.8,
+        "temperature": 0,
+        "text": " The core idea of the wave function collapse algorithm",
+        "tokens": [
+          50704,
+          440,
+          4965,
+          1558,
+          295,
+          264,
+          5772,
+          2445,
+          15584,
+          9284,
+          50836
+        ]
+      },
+      {
+        "avg_logprob": -0.32080311245388454,
+        "compression_ratio": 1.608695652173913,
+        "end": 12.96,
+        "id": 2,
+        "no_speech_prob": 0.005138442851603031,
+        "seek": 0,
+        "start": 9.44,
+        "temperature": 0,
+        "text": " is to take an input image and generate an output image,",
+        "tokens": [
+          50836,
+          307,
+          281,
+          747,
+          364,
+          4846,
+          3256,
+          293,
+          8460,
+          364,
+          5598,
+          3256,
+          11,
+          51012
+        ]
+      },
+      {
+        "avg_logprob": -0.32080311245388454,
+        "compression_ratio": 1.608695652173913,
+        "end": 17.04,
+        "id": 3,
+        "no_speech_prob": 0.005138442851603031,
+        "seek": 0,
+        "start": 12.96,
+        "temperature": 0,
+        "text": " many output images that all mimic the style, the pattern,",
+        "tokens": [
+          51012,
+          867,
+          5598,
+          5267,
+          300,
+          439,
+          31075,
+          264,
+          3758,
+          11,
+          264,
+          5102,
+          11,
+          51216
+        ]
+      },
+      {
+        "avg_logprob": -0.32080311245388454,
+        "compression_ratio": 1.608695652173913,
+        "end": 18.88,
+        "id": 4,
+        "no_speech_prob": 0.005138442851603031,
+        "seek": 0,
+        "start": 17.04,
+        "temperature": 0,
+        "text": " of that original image.",
+        "tokens": [
+          51216,
+          295,
+          300,
+          3380,
+          3256,
+          13,
+          51308
+        ]
+      },
+      {
+        "avg_logprob": -0.32080311245388454,
+        "compression_ratio": 1.608695652173913,
+        "end": 21.6,
+        "id": 5,
+        "no_speech_prob": 0.005138442851603031,
+        "seek": 0,
+        "start": 18.88,
+        "temperature": 0,
+        "text": " Don't you just feel so much more at ease and relaxed?",
+        "tokens": [
+          51308,
+          1468,
+          380,
+          291,
+          445,
+          841,
+          370,
+          709,
+          544,
+          412,
+          12708,
+          293,
+          14628,
+          30,
+          51444
+        ]
+      },
+      {
+        "avg_logprob": -0.32080311245388454,
+        "compression_ratio": 1.608695652173913,
+        "end": 22.400000000000002,
+        "id": 6,
+        "no_speech_prob": 0.005138442851603031,
+        "seek": 0,
+        "start": 21.6,
+        "temperature": 0,
+        "text": " Tile images.",
+        "tokens": [
+          51444,
+          314,
+          794,
+          5267,
+          13,
+          51484
+        ]
+      },
+      {
+        "avg_logprob": -0.32080311245388454,
+        "compression_ratio": 1.608695652173913,
+        "end": 23.32,
+        "id": 7,
+        "no_speech_prob": 0.005138442851603031,
+        "seek": 0,
+        "start": 22.400000000000002,
+        "temperature": 0,
+        "text": " Ah!",
+        "tokens": [
+          51484,
+          2438,
+          0,
+          51530
+        ]
+      },
+      {
+        "avg_logprob": -0.32080311245388454,
+        "compression_ratio": 1.608695652173913,
+        "end": 25.240000000000002,
+        "id": 8,
+        "no_speech_prob": 0.005138442851603031,
+        "seek": 0,
+        "start": 23.32,
+        "temperature": 0,
+        "text": " No, no, I'm not relaxed at all.",
+        "tokens": [
+          51530,
+          883,
+          11,
+          572,
+          11,
+          286,
+          478,
+          406,
+          14628,
+          412,
+          439,
+          13,
+          51626
+        ]
+      },
+      {
+        "avg_logprob": -0.32080311245388454,
+        "compression_ratio": 1.608695652173913,
+        "end": 27.96,
+        "id": 9,
+        "no_speech_prob": 0.005138442851603031,
+        "seek": 0,
+        "start": 25.240000000000002,
+        "temperature": 0,
+        "text": " In fact, I'm totally panicking.",
+        "tokens": [
+          51626,
+          682,
+          1186,
+          11,
+          286,
+          478,
+          3879,
+          2462,
+          10401,
+          13,
+          51762
+        ]
+      },
+      {
+        "avg_logprob": -0.27579669157663983,
+        "compression_ratio": 1.2727272727272727,
+        "end": 29.880000000000003,
+        "id": 10,
+        "no_speech_prob": 0.0006262504612095654,
+        "seek": 2796,
+        "start": 27.96,
+        "temperature": 0,
+        "text": " I think my brain is collapsing.",
+        "tokens": [
+          50364,
+          286,
+          519,
+          452,
+          3567,
+          307,
+          45339,
+          13,
+          50460
+        ]
+      },
+      {
+        "avg_logprob": -0.27579669157663983,
+        "compression_ratio": 1.2727272727272727,
+        "end": 30.6,
+        "id": 11,
+        "no_speech_prob": 0.0006262504612095654,
+        "seek": 2796,
+        "start": 29.880000000000003,
+        "temperature": 0,
+        "text": " It works.",
+        "tokens": [
+          50460,
+          467,
+          1985,
+          13,
+          50496
+        ]
+      },
+      {
+        "avg_logprob": -0.27579669157663983,
+        "compression_ratio": 1.2727272727272727,
+        "end": 31.28,
+        "id": 12,
+        "no_speech_prob": 0.0006262504612095654,
+        "seek": 2796,
+        "start": 30.6,
+        "temperature": 0,
+        "text": " It works.",
+        "tokens": [
+          50496,
+          467,
+          1985,
+          13,
+          50530
+        ]
+      },
+      {
+        "avg_logprob": -0.27579669157663983,
+        "compression_ratio": 1.2727272727272727,
+        "end": 32.4,
+        "id": 13,
+        "no_speech_prob": 0.0006262504612095654,
+        "seek": 2796,
+        "start": 31.28,
+        "temperature": 0,
+        "text": " We're getting somewhere.",
+        "tokens": [
+          50530,
+          492,
+          434,
+          1242,
+          4079,
+          13,
+          50586
+        ]
+      },
+      {
+        "avg_logprob": -0.27579669157663983,
+        "compression_ratio": 1.2727272727272727,
+        "end": 34.4,
+        "id": 14,
+        "no_speech_prob": 0.0006262504612095654,
+        "seek": 2796,
+        "start": 32.4,
+        "temperature": 0,
+        "text": " So stick with me all aboard.",
+        "tokens": [
+          50586,
+          407,
+          2897,
+          365,
+          385,
+          439,
+          27488,
+          13,
+          50686
+        ]
+      },
+      {
+        "avg_logprob": -0.27579669157663983,
+        "compression_ratio": 1.2727272727272727,
+        "end": 38.36,
+        "id": 15,
+        "no_speech_prob": 0.0006262504612095654,
+        "seek": 2796,
+        "start": 34.4,
+        "temperature": 0,
+        "text": " Let's try to make wave function collapse happen.",
+        "tokens": [
+          50686,
+          961,
+          311,
+          853,
+          281,
+          652,
+          5772,
+          2445,
+          15584,
+          1051,
+          13,
+          50884
+        ]
+      }
+    ],
+    "transcription": " Warning, warning, warning, system critical. The core idea of the wave function collapse algorithm is to take an input image and generate an output image, many output images that all mimic the style, the pattern, of that original image. Don't you just feel so much more at ease and relaxed? Tile images. Ah! No, no, I'm not relaxed at all. In fact, I'm totally panicking. I think my brain is collapsing. It works. It works. We're getting somewhere. So stick with me all aboard. Let's try to make wave function collapse happen.",
+    "translation": null
+  },
+  "error": null,
+  "status": "succeeded",
+  "created_at": "2023-09-26T21:03:36.084981Z",
+  "started_at": "2023-09-26T21:15:40.193599Z",
+  "completed_at": "2023-09-26T21:15:54.145373Z",
+  "webhook": "https://83ceaa0b612c.ngrok.app/?video_id=LHn7HfhKq98",
+  "webhook_events_filter": [
+    "completed"
+  ],
+  "metrics": {
+    "predict_time": 13.951774
+  },
+  "urls": {
+    "cancel": "https://api.replicate.com/v1/predictions/udazcerbe3cpnqmg5s3wysnquu/cancel",
+    "get": "https://api.replicate.com/v1/predictions/udazcerbe3cpnqmg5s3wysnquu"
+  }
+}

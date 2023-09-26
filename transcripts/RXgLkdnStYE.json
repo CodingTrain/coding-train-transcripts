@@ -1,0 +1,49 @@
+{
+  "id": "77ubevzbeveg4vhzwj5j53o46e",
+  "version": "91ee9c0c3df30478510ff8c8a3a545add1ad0259ad3a9f78fba57fbc05ee64f7",
+  "input": {
+    "audio": "https://upcdn.io/FW25b4F/raw/coding-train/RXgLkdnStYE.m4a"
+  },
+  "logs": "Transcribe with large-v2 model\nDetected language: English\n  0%|          | 0/2935 [00:00<?, ?frames/s]\n100%|██████████| 2935/2935 [00:04<00:00, 674.52frames/s]\n100%|██████████| 2935/2935 [00:04<00:00, 674.47frames/s]\n",
+  "output": {
+    "detected_language": "english",
+    "segments": [
+      {
+        "avg_logprob": -2.3489863077799478,
+        "compression_ratio": 0.42857142857142855,
+        "end": 29.060000000000002,
+        "id": 0,
+        "no_speech_prob": 0.22675803303718567,
+        "seek": 0,
+        "start": 0,
+        "temperature": 1,
+        "text": " Outtro",
+        "tokens": [
+          50364,
+          422,
+          13478,
+          340,
+          51817
+        ]
+      }
+    ],
+    "transcription": " Outtro",
+    "translation": null
+  },
+  "error": null,
+  "status": "succeeded",
+  "created_at": "2023-09-26T21:03:45.227294Z",
+  "started_at": "2023-09-26T21:16:38.042101Z",
+  "completed_at": "2023-09-26T21:16:44.866223Z",
+  "webhook": "https://83ceaa0b612c.ngrok.app/?video_id=RXgLkdnStYE",
+  "webhook_events_filter": [
+    "completed"
+  ],
+  "metrics": {
+    "predict_time": 6.824122
+  },
+  "urls": {
+    "cancel": "https://api.replicate.com/v1/predictions/77ubevzbeveg4vhzwj5j53o46e/cancel",
+    "get": "https://api.replicate.com/v1/predictions/77ubevzbeveg4vhzwj5j53o46e"
+  }
+}

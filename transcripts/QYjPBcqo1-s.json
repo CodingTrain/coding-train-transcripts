@@ -1,0 +1,273 @@
+{
+  "id": "cfpxofzb2pkkatmbkujfisr3fm",
+  "version": "91ee9c0c3df30478510ff8c8a3a545add1ad0259ad3a9f78fba57fbc05ee64f7",
+  "input": {
+    "audio": "https://upcdn.io/FW25b4F/raw/coding-train/QYjPBcqo1-s.m4a"
+  },
+  "logs": "Transcribe with large-v2 model\nDetected language: English\n  0%|          | 0/2916 [00:00<?, ?frames/s]\n 81%|████████  | 2360/2916 [00:38<00:09, 61.27frames/s]\n 81%|████████  | 2360/2916 [00:50<00:09, 61.27frames/s]\n100%|██████████| 2916/2916 [00:55<00:00, 50.48frames/s]\n100%|██████████| 2916/2916 [00:55<00:00, 52.73frames/s]\n",
+  "output": {
+    "detected_language": "english",
+    "segments": [
+      {
+        "avg_logprob": -3.2354835510253905,
+        "compression_ratio": 0.3333333333333333,
+        "end": 23.6,
+        "id": 0,
+        "no_speech_prob": 0.11744743585586548,
+        "seek": 0,
+        "start": 0,
+        "temperature": 1,
+        "text": " oops",
+        "tokens": [
+          50364,
+          34166,
+          51544
+        ]
+      },
+      {
+        "avg_logprob": -2.4419761980083625,
+        "compression_ratio": 2.4035087719298245,
+        "end": 28.540000000000003,
+        "id": 1,
+        "no_speech_prob": 0.20720818638801575,
+        "seek": 2360,
+        "start": 23.66,
+        "temperature": 1,
+        "text": " whoops whoops whoops whoops whoops whoops whoops whoops makes more sense now",
+        "tokens": [
+          50367,
+          567,
+          404,
+          82,
+          315,
+          78,
+          3370,
+          315,
+          78,
+          3370,
+          567,
+          3370,
+          567,
+          3370,
+          567,
+          3370,
+          567,
+          3370,
+          261,
+          1289,
+          3370,
+          1669,
+          544,
+          369,
+          77,
+          405,
+          586,
+          50611
+        ]
+      },
+      {
+        "avg_logprob": -2.4419761980083625,
+        "compression_ratio": 2.4035087719298245,
+        "end": 29.96,
+        "id": 2,
+        "no_speech_prob": 0.20720818638801575,
+        "seek": 2360,
+        "start": 28.540000000000003,
+        "temperature": 1,
+        "text": " bolli",
+        "tokens": [
+          50611,
+          748,
+          16320,
+          50682
+        ]
+      },
+      {
+        "avg_logprob": -2.4419761980083625,
+        "compression_ratio": 2.4035087719298245,
+        "end": 31,
+        "id": 3,
+        "no_speech_prob": 0.20720818638801575,
+        "seek": 2360,
+        "start": 29.96,
+        "temperature": 1,
+        "text": " bolli",
+        "tokens": [
+          50682,
+          748,
+          16320,
+          50734
+        ]
+      },
+      {
+        "avg_logprob": -2.4419761980083625,
+        "compression_ratio": 2.4035087719298245,
+        "end": 32.32,
+        "id": 4,
+        "no_speech_prob": 0.20720818638801575,
+        "seek": 2360,
+        "start": 31,
+        "temperature": 1,
+        "text": " oops",
+        "tokens": [
+          50734,
+          34166,
+          50800
+        ]
+      },
+      {
+        "avg_logprob": -2.4419761980083625,
+        "compression_ratio": 2.4035087719298245,
+        "end": 33.14,
+        "id": 5,
+        "no_speech_prob": 0.20720818638801575,
+        "seek": 2360,
+        "start": 32.32,
+        "temperature": 1,
+        "text": " oops",
+        "tokens": [
+          50800,
+          277,
+          404,
+          82,
+          50841
+        ]
+      },
+      {
+        "avg_logprob": -2.4419761980083625,
+        "compression_ratio": 2.4035087719298245,
+        "end": 33.900000000000006,
+        "id": 6,
+        "no_speech_prob": 0.20720818638801575,
+        "seek": 2360,
+        "start": 33.14,
+        "temperature": 1,
+        "text": " woops",
+        "tokens": [
+          50841,
+          6020,
+          3370,
+          50879
+        ]
+      },
+      {
+        "avg_logprob": -2.4419761980083625,
+        "compression_ratio": 2.4035087719298245,
+        "end": 35.06,
+        "id": 7,
+        "no_speech_prob": 0.20720818638801575,
+        "seek": 2360,
+        "start": 33.900000000000006,
+        "temperature": 1,
+        "text": " woops",
+        "tokens": [
+          50879,
+          6020,
+          3370,
+          50937
+        ]
+      },
+      {
+        "avg_logprob": -2.4419761980083625,
+        "compression_ratio": 2.4035087719298245,
+        "end": 37.06,
+        "id": 8,
+        "no_speech_prob": 0.20720818638801575,
+        "seek": 2360,
+        "start": 35.06,
+        "temperature": 1,
+        "text": " whoops",
+        "tokens": [
+          50937,
+          567,
+          3370,
+          51037
+        ]
+      },
+      {
+        "avg_logprob": -2.4419761980083625,
+        "compression_ratio": 2.4035087719298245,
+        "end": 39.760000000000005,
+        "id": 9,
+        "no_speech_prob": 0.20720818638801575,
+        "seek": 2360,
+        "start": 37.800000000000004,
+        "temperature": 1,
+        "text": " us",
+        "tokens": [
+          51074,
+          505,
+          51172
+        ]
+      },
+      {
+        "avg_logprob": -2.4419761980083625,
+        "compression_ratio": 2.4035087719298245,
+        "end": 42.92,
+        "id": 10,
+        "no_speech_prob": 0.20720818638801575,
+        "seek": 2360,
+        "start": 39.760000000000005,
+        "temperature": 1,
+        "text": " whoops",
+        "tokens": [
+          51172,
+          567,
+          3370,
+          51330
+        ]
+      },
+      {
+        "avg_logprob": -2.4419761980083625,
+        "compression_ratio": 2.4035087719298245,
+        "end": 45.08,
+        "id": 11,
+        "no_speech_prob": 0.20720818638801575,
+        "seek": 2360,
+        "start": 42.92,
+        "temperature": 1,
+        "text": " whoops",
+        "tokens": [
+          51330,
+          567,
+          3370,
+          51438
+        ]
+      },
+      {
+        "avg_logprob": -2.4419761980083625,
+        "compression_ratio": 2.4035087719298245,
+        "end": 51.480000000000004,
+        "id": 12,
+        "no_speech_prob": 0.20720818638801575,
+        "seek": 2360,
+        "start": 48.44,
+        "temperature": 1,
+        "text": " so",
+        "tokens": [
+          51606,
+          370,
+          51758
+        ]
+      }
+    ],
+    "transcription": " oops whoops whoops whoops whoops whoops whoops whoops whoops makes more sense now bolli bolli oops oops woops woops whoops us whoops whoops so",
+    "translation": null
+  },
+  "error": null,
+  "status": "succeeded",
+  "created_at": "2023-09-26T21:03:36.932712Z",
+  "started_at": "2023-09-26T21:15:47.816654Z",
+  "completed_at": "2023-09-26T21:16:45.90307Z",
+  "webhook": "https://83ceaa0b612c.ngrok.app/?video_id=QYjPBcqo1-s",
+  "webhook_events_filter": [
+    "completed"
+  ],
+  "metrics": {
+    "predict_time": 58.086416
+  },
+  "urls": {
+    "cancel": "https://api.replicate.com/v1/predictions/cfpxofzb2pkkatmbkujfisr3fm/cancel",
+    "get": "https://api.replicate.com/v1/predictions/cfpxofzb2pkkatmbkujfisr3fm"
+  }
+}
