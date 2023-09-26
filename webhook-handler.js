@@ -35,7 +35,7 @@ app.post("/", (req, res) => {
       .json({ message: "Missing video_id or prediction id" });
   }
 
-  const filename = `${video_id}--${prediction.id}.json`;
+  const filename = `${video_id}.json`;
   const filepath = path.join(TRANSCRIPTS_DIR, filename);
 
   // Save JSON object to disk

@@ -7,7 +7,7 @@ const TRANSCRIPTS_DIR = path.join(__dirname, "../transcripts");
 // Output file path
 const OUTPUT_FILE = path.join(
   __dirname,
-  "../coding-train-transcripts-autocomplete.jsonl"
+  "../training-data/coding-train-autocomplete.jsonl"
 );
 
 // Check if directory exists

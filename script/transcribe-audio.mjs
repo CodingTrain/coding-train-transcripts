@@ -15,9 +15,9 @@ async function main() {
 
     // Exclude video IDs that already have transcripts
     const filenames = await fs.readdir("transcripts");
-    const videoIdsWithoutTranscripts = videoIds.filter((videoId) => {
-      return !filenames.some((filename) => filename.startsWith(videoId));
-    });
+    const videoIdsWithoutTranscripts = videoIds.filter(
+      (videoId) => !filenames.includes(`${videoId}.json`)
+    );
 
     console.log("Total video IDs:", videoIds.length);
     console.log(
@@ -26,8 +26,8 @@ async function main() {
     );
 
     // Construct and print the URL for each ID
-    for (let i = 0; i < videoIds.length; i++) {
-      const videoId = videoIds[i];
+    for (let i = 0; i < videoIdsWithoutTranscripts.length; i++) {
+      const videoId = videoIdsWithoutTranscripts[i];
       const webhook = `${process.env.NGROK_HOST}/?video_id=${videoId}`;
       const audioFileUrl = `https://upcdn.io/FW25b4F/raw/coding-train/${videoId}.m4a`;
       console.log({ videoId, webhook, audioFileUrl });
