@@ -38,6 +38,12 @@ app.post("/", (req, res) => {
   const filename = `${video_id}.json`;
   const filepath = path.join(TRANSCRIPTS_DIR, filename);
 
+  if (prediction.status !== "completed") {
+    return res
+      .status(200)
+      .json({ message: "Skipping incomplete or failed prediction" });
+  }
+
   // Save JSON object to disk
   fs.writeFile(filepath, JSON.stringify(prediction, null, 2), (err) => {
     if (err) {
